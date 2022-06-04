@@ -202,6 +202,7 @@ margin-bottom: 5px;
 }
 
 .about {
+    background-image: url(/img/f7b8e9c5-86cb-4730-b908-540f0652ae9d.jpg);
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -213,7 +214,57 @@ margin-bottom: 5px;
     padding: 20px 50px;
     border-radius: 8px;
     border: 2px solid grey;
+    color: rgba(127, 255, 212, 0);
+    transition: all 1s;
 }
+
+.about:hover {
+    background-color: rgb(199, 199, 199);
+    background-image: url();
+    color: rgb(22, 22, 22);
+}
+
+.rooms {
+    background-image: url(/img/f6bdbf2d-8c8e-4932-b7b9-d130b8d20dd7.jpg);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 600px;
+    width: 800px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    background-color: rgb(199, 199, 199);
+    padding: 20px 50px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    color: rgba(127, 255, 212, 0);
+    transition: all 1s;
+}
+
+.rooms:hover {
+    background-color: rgb(199, 199, 199);
+    background-image: url();
+    color: rgb(22, 22, 22);
+}
+
+.contacts {
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 600px;
+    width: 800px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    background-color: rgb(199, 199, 199);
+    padding: 20px 50px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    color: rgba(22, 22, 22);
+
+}
+
+
 
 .cont{
     display: flex;
@@ -242,6 +293,7 @@ margin-bottom: 5px;
     margin: 20px;
 
 }
+
 
 .bron {
     margin-top: 250px;
